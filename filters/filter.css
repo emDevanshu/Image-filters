@@ -1,0 +1,49 @@
+body {
+    background-color: powderblue;
+    margin-left: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 8ch;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4ch;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+p {
+    font-family:'Courier New', Courier, monospace ;
+    text-align: center;
+    font-size: 3ch;
+    margin-top: -2%;
+}
+canvas {
+    border: 2px solid slategray;
+    background-color: whitesmoke;
+    height: 350px;
+}
+input {
+    font-size: 18px;
+    margin-top: 10px;
+}
+#gray {
+    background-color: lightslategray;
+}
+#red {
+    background-color: rgb(240, 20,20);
+}
+#blue {
+    color: rgb(250, 200, 150);
+    background-color: mediumblue;
+}
+#reset {
+    background-color: mintcream;
+}
+.img {
+    filter: blur(1px);
+}
+.removeblur {
+    filter: blur(0px);
+}
