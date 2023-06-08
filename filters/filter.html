@@ -1,0 +1,19 @@
+<html>
+    <link rel="stylesheet" href="filter.css">
+    <head>
+        <h1>Welcome</h1>
+        <p><b>You can put different filters on your images here.</b></p>
+        <canvas id="canvas1"></canvas><br>
+        <h2>Load Image</h2>
+        <input id="file" type="file" multiple="false" accept="image/*" onchange="upload()"><br>
+        <h2>Choose filter</h2>
+        <input id="blur" type="button" value="Blur" onclick="makeblur()">
+        <input id="gray" type="button" value="Grayscale" onclick="makegray()">
+        <input id="red" type="button" value="Red" onclick="makered()">
+        <input id="blue" type="button" value="Blue" onclick="makeblue()">
+        <input id="border" type="button" value="Add border" onclick="makeborder()"><br>
+        <input id="reset" type="button" value="Reset image" onclick="reset()">
+    </head>
+    <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <script src="filter.js"></script>
+</html>
